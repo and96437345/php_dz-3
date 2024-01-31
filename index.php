@@ -16,6 +16,7 @@
 define("DOLLAR", 89.67);
 define("EURO", 96.79);
 define("YUAN", 12.41);
+echo "Конвертер валюты\n";
 $rub = readline("Введите сумму в рублях: ");
 $usd = round ($rub / DOLLAR, 2);
 $eur = round ($rub / EURO, 2);
